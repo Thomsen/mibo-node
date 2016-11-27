@@ -9,7 +9,7 @@
     "lite": "node_modules/.bin/lite-server",
     "concurrently": "node_modules/.bin/concurrently",
     "nodemon": "node_modules/.bin/nodemon",
-    "start": "concurrently \"npm run tsw\" \"npm run lite\" \"nodemon build/server/app.js\" ",
+    "start": "concurrently \"npm run tsw\" \"nodemon build/root.js\" ",
     "server": "concurrently \"npm run tsw\" \"nodemon build/server/app.js\" ",
     "typings": "node_modules/.bin/typings",
     "test": "echo \"Error: no test specified\" && exit 1"
