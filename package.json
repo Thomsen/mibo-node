@@ -1,21 +1,30 @@
 {
-  "name": "mibo-node",
-  "version": "1.0.0",
-  "description": "",
+  "name": "mibo",
+  "version": "0.0.1",
+  "description": "mibo-node framework",
   "main": "index.js",
-  "scripts": {
-    "server": "node_modules/.bin/tsc -w & node_modules/.bin/nodemon build/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {},
+  "bin": {
+    "mibo": "starter.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thomsen",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.11.0",
-    "typescript": "^2.0.10",
-    "typings": "^2.0.0"
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0"
   },
   "dependencies": {
-    "express": "^4.14.0"
-  }
+    "chalk": "^2.4.0",
+    "commander": "^2.15.1",
+    "envinfo": "3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomsen/mibo-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Thomsen/mibo-node/issues"
+  },
+  "homepage": "https://github.com/Thomsen/mibo-node#readme"
 }
